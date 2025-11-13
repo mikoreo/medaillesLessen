@@ -10,11 +10,20 @@ namespace medaillesOpdracht
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("wat is je naam?");
-            string naam = Console.ReadLine();
-            Console.WriteLine("wat is je leeftijd");
-            string leeftijd = Console.ReadLine();
-            Console.WriteLine("Hoi " + naam + ", je bent " + leeftijd + " jaar oud!");
+            /* medaillesOpdracht 1
+
+             Console.WriteLine("wat is je naam?");
+             string naam = Console.ReadLine();
+             Console.WriteLine("wat is je leeftijd");
+             string leeftijd = Console.ReadLine();
+             Console.WriteLine("Hoi " + naam + ", je bent " + leeftijd + " jaar oud!");
+            */
+
+            //medaillesOpdracht 2
+            Opdracht2 test = new Opdracht2();
+            test.Start();
+
+
         }
     }
 }
