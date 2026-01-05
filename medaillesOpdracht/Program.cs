@@ -10,6 +10,7 @@ namespace medaillesOpdracht
     {
         static void Main(string[] args)
         {
+            bool admin = false;
             /* medaillesOpdracht 1
 
              Console.WriteLine("wat is je naam?");
@@ -19,11 +20,14 @@ namespace medaillesOpdracht
              Console.WriteLine("Hoi " + naam + ", je bent " + leeftijd + " jaar oud!");
             */
 
-            //medaillesOpdracht 2
-            Opdracht2 test = new Opdracht2();
+       
+
+
+            Opdracht3 test = new Opdracht3();
             test.Start();
 
 
+            
         }
     }
 }
