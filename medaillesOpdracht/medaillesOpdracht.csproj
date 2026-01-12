@@ -46,6 +46,7 @@
     <Compile Include="Opdracht4.cs" />
     <Compile Include="Opdracht5.cs" />
     <Compile Include="Opdracht6.cs" />
+    <Compile Include="Opdracht7.cs" />
     <Compile Include="User.cs" />
     <Compile Include="inDeLes.cs" />
     <Compile Include="Loops.cs" />
