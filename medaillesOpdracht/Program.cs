@@ -23,7 +23,7 @@ namespace medaillesOpdracht
        
 
 
-            Opdracht5 test = new Opdracht5();
+            Opdracht6 test = new Opdracht6();
             test.Start();
 
 
