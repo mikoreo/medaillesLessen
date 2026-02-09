@@ -20,14 +20,28 @@ namespace medaillesOpdracht
              Console.WriteLine("Hoi " + naam + ", je bent " + leeftijd + " jaar oud!");
             */
 
-       
 
 
-            Opdracht6 test = new Opdracht6();
-            test.Start();
 
+            //Opdracht4 test = new Opdracht4();
+            //test.Start();
+
+            // Character Player1 = new Character("Player1", 5);
+
+            List<Weapon> weaponList = new List<Weapon>()
+            {
+                new Weapon("gouden prikker", 10),
+            };
+
+            foreach (Weapon weapon in weaponList)
+            {
+                weapon.ShowStats();
+            }
+           
+            
 
             
+
         }
     }
 }
